@@ -1,0 +1,90 @@
+body{
+    background-image: url(/img/neom-rVC6O_gDE0Q-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(3px);
+    border: 2px solid gray;
+    border-radius: 6px;
+    align-items: center;
+}
+.container h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    border-bottom: 3px solid white;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.container .login{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+.login input,button{
+    margin: 15px;
+    padding: 9px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+}
+.login input{
+    background-color:white;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    text-indent: 35px;
+    background: url(/img/user_8647311.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 15px;
+}
+
+ .login input{
+     border: 2px solid grey;
+ }
+.login input:hover{
+    border: 2px solid white;
+}
+.login input:nth-child(2){
+    background-image: url(/img/padlock.png);
+}
+.login input::placeholder{
+    font-size: 14px;
+    color: gainsboro;
+}
+.login button{
+    background-color:coral;
+    color: #fff;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.login button:hover{
+    border: 2px solid white;
+}
+.suggests{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: white;
+}
+.suggests .forgot{
+    color: coral;
+    cursor: pointer;
+}
